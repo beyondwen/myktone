@@ -1,0 +1,11 @@
+###服务启动端口号
+server:
+  port: 8080
+
+#数据库连接
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: wenhao151
+    url: jdbc:mysql://127.0.0.1:3306/mykt?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
